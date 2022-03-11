@@ -180,7 +180,7 @@
     "text-annotation"
   ],
   "dependencies": {
-    "@thi.ng/rle-pack": "^2.1.6",
+    "@thi.ng/rle-pack": "^3.1.4",
     "babel-preset-react-app": "^9.1.1",
     "d3": "^5.16.0",
     "magic-wand-js": "^1.0.0"
