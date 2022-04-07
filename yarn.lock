@@ -1397,25 +1397,25 @@
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
 
-"@thi.ng/bitstream@^1.1.40":
-  version "1.1.40"
-  resolved "https://registry.yarnpkg.com/@thi.ng/bitstream/-/bitstream-1.1.40.tgz#f044517434828ebcff538f4b38290f55447cdc2e"
-  integrity sha512-b6UvzYPwUZrOLvRv8hU72/fBFLn1V2gLtN7SQ7splkg4PAac2xPqC5bQcKSPUoHuW/7FonORC1sKRMCI8MqiWw==
+"@thi.ng/bitstream@^2.1.5":
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/@thi.ng/bitstream/-/bitstream-2.1.5.tgz#d6299e2092ff351c0831fd76d9f90e3dbef02516"
+  integrity sha512-/g8rjdPgs+G89AdcYyGQKhC4Qe33+L9hSJoHRLEovXqSXDFrCzMq0AvUsKU0wnMoQsHXtvyWtUdfILgjMQxNCg==
   dependencies:
-    "@thi.ng/errors" "^1.3.2"
+    "@thi.ng/errors" "^2.1.5"
 
-"@thi.ng/errors@^1.3.2":
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/@thi.ng/errors/-/errors-1.3.2.tgz#5936fffcdcc0f8c670ac1e52fad3912e6f9598fb"
-  integrity sha512-M3EVckYsGPTg2TAgxgjjWzsmTVRoNLHR0bVq83e7qWg9Atc9fmrJh6bCea/wOQTRW3kjJ4gq8be2Yqi6nr9RzQ==
+"@thi.ng/errors@^2.1.5":
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/@thi.ng/errors/-/errors-2.1.5.tgz#d5bb6a3dd461edf56ac2ddcc10ee7e0b8b028fef"
+  integrity sha512-bC0TtSNBUWuuNAW632mRX4ohfbhfHno6trFaEzd0K8Jb853ZvnB/PuueEgEPN1SmT+K4fvW05d5ql1VJbe9/ow==
 
-"@thi.ng/rle-pack@^2.1.6":
-  version "2.1.40"
-  resolved "https://registry.yarnpkg.com/@thi.ng/rle-pack/-/rle-pack-2.1.40.tgz#c9cd090628db29426b64b94d3489c110cd3a397c"
-  integrity sha512-Wr/ztkVKkSbXgs2rj+C1VJuh/dg+J2aiaR45kY1Li0Je+jwMDev4pvoKeyXGDcIfFjvYF5ELudfH0iksHhcC9Q==
+"@thi.ng/rle-pack@^3.1.5":
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/@thi.ng/rle-pack/-/rle-pack-3.1.5.tgz#5efe8bd9d9679f4c297e4a6443058c4122b153c6"
+  integrity sha512-6Pe6pRjGxGNasI2uc8w89mp25uORSrMd3aBOynmv3PcgITHfyJfnhuokXTlUs3jYk6XFSvv2EtAP8ZI6CkNG4w==
   dependencies:
-    "@thi.ng/bitstream" "^1.1.40"
-    "@thi.ng/errors" "^1.3.2"
+    "@thi.ng/bitstream" "^2.1.5"
+    "@thi.ng/errors" "^2.1.5"
 
 "@trysound/sax@0.1.1":
   version "0.1.1"
@@ -2082,11 +2082,6 @@ array-union@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/array-union/-/array-union-2.1.0.tgz#b798420adbeb1de828d84acd8a2e23d3efe85e8d"
   integrity sha512-HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw==
-
-array.partial@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/array.partial/-/array.partial-1.0.5.tgz#f514595aacbf6a99ea20bbcffbcacc10316f0d56"
-  integrity sha512-nkHH1dU6JXrwppCqdUD5M1R85vihgBqhk9miq+3WFwwRayNY1ggpOT6l99PppqYQ1Hcjv2amFfUzhe25eAcYfA==
 
 array.prototype.filter@^1.0.0:
   version "1.0.0"
@@ -8614,14 +8609,6 @@ react-dom@^17.0.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
-react-dropdown-tree-select@^2.4.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/react-dropdown-tree-select/-/react-dropdown-tree-select-2.5.1.tgz#071bef6193352cda8f3177d7f56e906a8fa175e3"
-  integrity sha512-9sN62pIci6EZ0Fni5fqB7b5e7UG/FQ/qSwYtcc0+P3VaE1bHnEYQ9XxTSkFqpbVsy9dfq94RGaECzWcErgB+jw==
-  dependencies:
-    array.partial "^1.0.5"
-    react-infinite-scroll-component "^4.0.2"
-
 react-hot-loader@^4.13.0:
   version "4.13.0"
   resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.13.0.tgz#c27e9408581c2a678f5316e69c061b226dc6a202"
@@ -8635,11 +8622,6 @@ react-hot-loader@^4.13.0:
     react-lifecycles-compat "^3.0.4"
     shallowequal "^1.1.0"
     source-map "^0.7.3"
-
-react-infinite-scroll-component@^4.0.2:
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/react-infinite-scroll-component/-/react-infinite-scroll-component-4.5.3.tgz#008c2ec358628b490117ffc4aa6ce6982b26f8be"
-  integrity sha512-8O0PIeYZx0xFVS1ChLlLl/1obn64vylzXeheLsm+t0qUibmet7U6kDaKFg6jVRQJwDikWBTcyqEFFsxrbFCO5w==
 
 react-is@^16.12.0, react-is@^16.13.1, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.6:
   version "16.13.1"
