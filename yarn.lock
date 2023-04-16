@@ -2970,8 +2970,9 @@
   integrity sha512-Q5vtl1W5ue16D+nIaW8JWebSSraJVlK+EthKn7e7UcD4KWsaSJ8BqGPXNaPghgtcn/fhvrN17Tv8ksUsQpiplw==
 
 "@types/wavesurfer.js@^6.0.0":
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/@types/wavesurfer.js/-/wavesurfer.js-6.0.1.tgz#21a376663e4fe620f51df006741cad3410d0c620"
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@types/wavesurfer.js/-/wavesurfer.js-6.0.4.tgz#7ae92d5752dba5b96df27560484da3cb4ff380f4"
+  integrity sha512-TGWy48OTZc9fuedxBmtM5WGNK4WDloRzf6/mE+OXmM9JuLzshhWZXSbZHiGnzpYB19mfdwnoEE4/8PNvyr/JBQ==
   dependencies:
     "@types/debounce" "*"
 
@@ -10907,8 +10908,9 @@ watchpack@^2.3.1:
     graceful-fs "^4.1.2"
 
 wavesurfer.js@^6.0.1:
-  version "6.0.4"
-  resolved "https://registry.yarnpkg.com/wavesurfer.js/-/wavesurfer.js-6.0.4.tgz#e95690d8930d484f01b997c0c120f3b9649cab2b"
+  version "6.6.3"
+  resolved "https://registry.yarnpkg.com/wavesurfer.js/-/wavesurfer.js-6.6.3.tgz#eadebf0542be702f1eef2f52c3e312b839030166"
+  integrity sha512-XqUOXe8+SOTe8uKCHaqW0vJ5etCCQvq/NgaPycn9HAX/nUi+2zoWD+w9i7H5vBT9UCDNawOia+vS5Ct3kZGQzA==
 
 wbuf@^1.1.0, wbuf@^1.7.3:
   version "1.7.3"
