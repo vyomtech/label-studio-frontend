@@ -2572,22 +2572,25 @@
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^8.0.0"
 
-"@thi.ng/bitstream@^1.1.43":
-  version "1.1.43"
-  resolved "https://registry.yarnpkg.com/@thi.ng/bitstream/-/bitstream-1.1.43.tgz#c3582043627eab11868862fd711412df8e799743"
+"@thi.ng/bitstream@^2.2.20":
+  version "2.2.20"
+  resolved "https://registry.yarnpkg.com/@thi.ng/bitstream/-/bitstream-2.2.20.tgz#84e4cf35287b3e124e7125e57cda87bb9bd2b7f3"
+  integrity sha512-YVtLEZMhYBhq9puzNZzkUShtLhpnVpAsQH6aFBqMXu/IcgwGxGAWPsLMuggcYFvWpbLdQoUBSRtyrWc+kZaufA==
   dependencies:
-    "@thi.ng/errors" "^1.3.4"
+    "@thi.ng/errors" "^2.2.15"
 
-"@thi.ng/errors@^1.3.4":
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/@thi.ng/errors/-/errors-1.3.4.tgz#8f7675f7a895a87f0f609d64db69bc04483e0b29"
+"@thi.ng/errors@^2.2.15":
+  version "2.2.15"
+  resolved "https://registry.yarnpkg.com/@thi.ng/errors/-/errors-2.2.15.tgz#626349585a1641aa9c6c46dbcad8da0f1829ced6"
+  integrity sha512-zyaHmu4Sqpkl5t5tSQLfZPMzfV+pM29EbONXTRNW/8BnTE++iiHwUwFU0rHbeTMPmH0BMp5g4wNG8K+A5xewsw==
 
-"@thi.ng/rle-pack@^2.1.6":
-  version "2.1.43"
-  resolved "https://registry.yarnpkg.com/@thi.ng/rle-pack/-/rle-pack-2.1.43.tgz#6af99e46177955bbde61e7861279d69cf9861e69"
+"@thi.ng/rle-pack@^3.1.28":
+  version "3.1.28"
+  resolved "https://registry.yarnpkg.com/@thi.ng/rle-pack/-/rle-pack-3.1.28.tgz#c6cbfc0cd4243df7470359ddfeceb8dae7c663a6"
+  integrity sha512-Z6UX7yw0EdMe35hVpGHUyXAFVq+oP12s1/EldoxG8xIiSaT7JP1vIdZLOgImwRNF14vSaeRUnaY8CEK1JQmbQg==
   dependencies:
-    "@thi.ng/bitstream" "^1.1.43"
-    "@thi.ng/errors" "^1.3.4"
+    "@thi.ng/bitstream" "^2.2.20"
+    "@thi.ng/errors" "^2.2.15"
 
 "@tootallnate/once@2":
   version "2.0.0"
