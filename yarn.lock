@@ -3217,10 +3217,6 @@
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
 
-abab@^2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.5.tgz#c0b678fb32d60fc1219c784d6a826fe385aeb79a"
-
 abab@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.6.tgz#41b80f2c871d19686216b82309231cfd3cb3d291"
@@ -6337,7 +6333,7 @@ iconv-lite@0.4, iconv-lite@0.4.24:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
-iconv-lite@0.6.3, iconv-lite@^0.6.2:
+iconv-lite@0.6.3, iconv-lite@^0.6.3:
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.6.3.tgz#a52f80bf38da1952eb5c681790719871a1a72501"
   dependencies:
@@ -10069,17 +10065,14 @@ source-list-map@^2.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
 
-source-map-js@^0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-0.6.2.tgz#0bb5de631b41cfbda6cfba8bd05a80efdfd2385e"
-
-source-map-loader@^2.0.1:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/source-map-loader/-/source-map-loader-2.0.2.tgz#4ab634f8f8bac4f406b61383f87a2bc804c24697"
+source-map-loader@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/source-map-loader/-/source-map-loader-4.0.1.tgz#72f00d05f5d1f90f80974eda781cbd7107c125f2"
+  integrity sha512-oqXpzDIByKONVY8g1NUPOTQhe0UTU5bWUl32GSkqK2LjJj0HmwTMVKxcUip0RgAYhY1mqgOxjbQM48a0mmeNfA==
   dependencies:
-    abab "^2.0.5"
-    iconv-lite "^0.6.2"
-    source-map-js "^0.6.2"
+    abab "^2.0.6"
+    iconv-lite "^0.6.3"
+    source-map-js "^1.0.2"
 
 source-map-resolve@^0.5.2:
   version "0.5.3"
